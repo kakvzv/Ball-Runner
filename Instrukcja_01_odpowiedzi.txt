@@ -1,0 +1,20 @@
+Wyjaśnij w kilku zdaniach różnice pomiędzy światłami, które w UE4 byłyby ustawione jako:
+
+- światło statyczne,
+
+- nieruchome/stacjonarne
+
+- ruchome
+
+Jakie mogą mieć zastosowania, jakie dają korzyści, kiedy warto ich użyć?
+
+
+
+
+Światło statyczne: Nie może poruszać się w trakcie gry, czyli cienie i dobicia są obliczane na stałe(nie mogą się poruszać w trakcie gry). Działa i oblicza się najszybciej. 
+
+
+Nieruchome/stacjonarne: Nie może poruszać się w trakcie gry, ale pozwala na szybsze obliczanie niż światło ruchome. Posiada opcje tworzenia dynamicznych cieni (aktor rzuca na ścianę cień, jeżeli wejdzie miedzy nią, a źródło światła).
+
+
+Ruchome: Najbardziej obciąża komputer, ale posiada możliwości przemieszczania się i jest niezbędne gdy tworzymy przemieszczające się światło typu latarka.
